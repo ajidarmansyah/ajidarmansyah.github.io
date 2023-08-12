@@ -711,10 +711,6 @@ video {
   width: 100%;
 }
 
-.min-w-\[0\] {
-  min-width: 0;
-}
-
 .max-w-md {
   max-width: 28rem;
 }
@@ -1091,10 +1087,6 @@ video {
     max-width: 80rem;
   }
 
-  .xl\:flex-wrap {
-    flex-wrap: wrap;
-  }
-
   .xl\:justify-around {
     justify-content: space-around;
   }
@@ -1102,11 +1094,5 @@ video {
   .xl\:px-\[150px\] {
     padding-left: 150px;
     padding-right: 150px;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:flex-wrap {
-    flex-wrap: wrap;
   }
 }
